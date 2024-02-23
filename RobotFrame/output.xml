@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.11.4 on win32)" generated="20240223 13:38:58.652" rpa="false">
+<suite id="s1" name="RobotFrame" source="C:\Users\PC\Videos\Projet_Formation\RobotFrame">
+<suite id="s1-s1" name="Robot11" source="C:\Users\PC\Videos\Projet_Formation\RobotFrame\Robot11.robot">
+<test id="s1-s1-t1" name="MyFirstTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://google.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20240223 13:39:01.173" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<status status="PASS" starttime="20240223 13:39:01.157" endtime="20240223 13:39:11.809"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>8</arg>
+</arguments>
+<status status="PASS" starttime="20240223 13:39:11.811" endtime="20240223 13:39:11.857"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>kamal Mikharbach</arg>
+</arguments>
+<msg timestamp="20240223 13:39:11.865" level="INFO">Typing text 'kamal Mikharbach' into text field 'name=q'.</msg>
+<msg timestamp="20240223 13:39:11.942" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.185)
+Stacktrace:
+	GetHandleVerifier [0x00EAE123+48179]
+	(No symbol) [0x00E35D01]
+	(No symbol) [0x00D1D72D]
+	(No symbol) [0x00D01FBA]
+	(No symbol) [0x00D79EAB]
+	(No symbol) [0x00D8A2D6]
+	(No symbol) [0x00D73A26]
+	(No symbol) [0x00D4B7BC]
+	(No symbol) [0x00D4C62D]
+	GetHandleVerifier [0x011C7C33+3299139]
+	GetHandleVerifier [0x01205BF2+3553026]
+	GetHandleVerifier [0x01200BCC+3532508]
+	GetHandleVerifier [0x00F4494E+664670]
+	(No symbol) [0x00E40AB4]
+	(No symbol) [0x00E3BF08]
+	(No symbol) [0x00E3C02D]
+	(No symbol) [0x00E2DD00]
+	BaseThreadInitThunk [0x753EFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77527C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x77527C2E+238]
+</msg>
+<msg timestamp="20240223 13:39:12.014" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.185)
+Stacktrace:
+	GetHandleVerifier [0x00EAE123+48179]
+	(No symbol) [0x00E35D01]
+	(No symbol) [0x00D1D72D]
+	(No symbol) [0x00D01FBA]
+	(No symbol) [0x00D79EAB]
+	(No symbol) [0x00D8A2D6]
+	(No symbol) [0x00D73A26]
+	(No symbol) [0x00D4B7BC]
+	(No symbol) [0x00D4C62D]
+	GetHandleVerifier [0x011C7C33+3299139]
+	GetHandleVerifier [0x01205BF2+3553026]
+	GetHandleVerifier [0x01200BCC+3532508]
+	GetHandleVerifier [0x00F4494E+664670]
+	(No symbol) [0x00E40AB4]
+	(No symbol) [0x00E3BF08]
+	(No symbol) [0x00E3C02D]
+	(No symbol) [0x00E2DD00]
+	BaseThreadInitThunk [0x753EFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77527C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x77527C2E+238]
+</msg>
+<status status="FAIL" starttime="20240223 13:39:11.859" endtime="20240223 13:39:12.016"></status>
+</kw>
+<tags>
+<tag>Kamal</tag>
+</tags>
+<status status="FAIL" starttime="20240223 13:39:01.151" endtime="20240223 13:39:12.017" critical="yes">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.185)
+Stacktrace:
+	GetHandleVerifier [0x00EAE123+48179]
+	(No symbol) [0x00E35D01]
+	(No symbol) [0x00D1D72D]
+	(No symbol) [0x00D01FBA]
+	(No symbol) [0x00D79EAB]
+	(No symbol) [0x00D8A2D6]
+	(No symbol) [0x00D73A26]
+	(No symbol) [0x00D4B7BC]
+	(No symbol) [0x00D4C62D]
+	GetHandleVerifier [0x011C7C33+3299139]
+	GetHandleVerifier [0x01205BF2+3553026]
+	GetHandleVerifier [0x01200BCC+3532508]
+	GetHandleVerifier [0x00F4494E+664670]
+	(No symbol) [0x00E40AB4]
+	(No symbol) [0x00E3BF08]
+	(No symbol) [0x00E3C02D]
+	(No symbol) [0x00E2DD00]
+	BaseThreadInitThunk [0x753EFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77527C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x77527C2E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20240223 13:38:58.917" endtime="20240223 13:39:12.023"></status>
+</suite>
+<status status="FAIL" starttime="20240223 13:38:58.874" endtime="20240223 13:39:12.030"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">Kamal</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="RobotFrame">RobotFrame</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Robot11">RobotFrame.Robot11</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240223 13:39:11.942" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.185)
+Stacktrace:
+	GetHandleVerifier [0x00EAE123+48179]
+	(No symbol) [0x00E35D01]
+	(No symbol) [0x00D1D72D]
+	(No symbol) [0x00D01FBA]
+	(No symbol) [0x00D79EAB]
+	(No symbol) [0x00D8A2D6]
+	(No symbol) [0x00D73A26]
+	(No symbol) [0x00D4B7BC]
+	(No symbol) [0x00D4C62D]
+	GetHandleVerifier [0x011C7C33+3299139]
+	GetHandleVerifier [0x01205BF2+3553026]
+	GetHandleVerifier [0x01200BCC+3532508]
+	GetHandleVerifier [0x00F4494E+664670]
+	(No symbol) [0x00E40AB4]
+	(No symbol) [0x00E3BF08]
+	(No symbol) [0x00E3C02D]
+	(No symbol) [0x00E2DD00]
+	BaseThreadInitThunk [0x753EFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77527C5E+286]
+	RtlGetAppContainerNamedObjectPath [0x77527C2E+238]
+</msg>
+</errors>
+</robot>
